@@ -1,1 +1,87 @@
-= {{ title }}
+= NBNL Object Register
+
+Maintainer::
+    mailto:teamsemantiek@netbeheernederland.nl[Team Semantiek] (Netbeheer Nederland)
+Version::
+    1.0.0
+Release date::
+    2026-02-20
+
+The _NBNL Object Register_ is a predefined, controlled set of permissible
+values used to ensure consistency and interoperability in data exchange,
+validation, and interpretation. Each value in the list provides a clear
+definition and may be associated with metadata such as descriptions, status, or
+authoritative source.
+
+This list is maintained by _Team Semantiek_ and is considered authoritative
+within the scope of the object register.
+
+== cim:GeographicalRegion
+
+[cols="6,1,3,3",width=100%]
+|===
+|mRID |Name |Type |Issuer
+
+ |3061d9bc-a20e-4b72-85b7-042c731f86be
+ |NL
+a|https://www.iso.org/obp/ui/#iso:pub:PUB500001:en[Definition]
+a|https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:en[Definition]
+|===
+
+== cim:SubGeographicalRegion
+
+[cols="6,1,3,3",width=100%]
+|===
+|mRID |Name |Type |Issuer
+
+ |158a245d-79f4-4380-bf77-5f128dc3dee8
+ |Enexis
+a|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/netbeheerder[Definition]
+a|Netbeheer Nederland
+
+ |4f74c8e2-adb5-4815-9607-eb00fb6a0d55
+ |Liander
+a|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/netbeheerder[Definition]
+a|Netbeheer Nederland
+
+ |0d00cb60-dd49-4d00-a720-19a0025807f0
+ |Stedin
+a|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/netbeheerder[Definition]
+a|Netbeheer Nederland
+
+ |2128cb2f-9425-4cf7-9462-9fd59e06542d
+ |TenneT
+a|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/netbeheerder[Definition]
+a|Netbeheer Nederland
+|===
+
+== cim:BaseVoltage
+
+[cols="6,1,3,3",width=100%]
+|===
+|mRID |Name |Type |Issuer
+
+ |b7482b2f-bcb8-46e9-99b1-e0cd09f3c205
+ |Laagspanning (400 V)
+a|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/laagspanning[Definition]
+a|Netbeheer Nederland
+
+ |45b9413e-a116-4952-8cf8-aeb4b2e53348
+ |Middenspanning (10 kV)
+a|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/middenspanning[Definition]
+a|Netbeheer Nederland
+
+ |b8e17237e0ca4fca9e4e285b80ab30d0
+ |Hoogspanning (110 kV)
+a|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/hoogspanning[Definition]
+a|Netbeheer Nederland
+
+ |e50ca4bd591d4c30bd6eca3635f70516
+ |Hoogspanning (150 kV)
+a|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/hoogspanning[Definition]
+a|Netbeheer Nederland
+|===
+
+== Additional artifacts
+
+* xref::attachment$dp_object.example.jsonld[NBNL Object Register JSON-LD source]
