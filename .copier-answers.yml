@@ -1,0 +1,7 @@
+# Changes here will be overwritten by Copier
+_commit: '0.1'
+_src_path: gh:Netbeheer-Nederland/template-doc
+description: Information models for the Object information model.
+git_protocol: SSH
+name: object-register
+title: Object Register
