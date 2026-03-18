@@ -13,8 +13,8 @@
   },
   "@id": "urn:uuid:5bdf9a6d-ef38-4c4d-a6ee-42a9accdec64",
   "dcterms:issued": {
-    "@value": "2026-02-22T00:00:000Z",
-    "@type": "xsd:date"
+    "@value": "2026-03-18T00:00:00Z",
+    "@type": "xsd:dateTime"
   },
   "dcterms:publisher": {
     "@id": "urn:uuid:023137af-5b53-4bb4-8687-4ea19d53cf78",
@@ -22,7 +22,7 @@
   },
   "dcterms:conformsTo": [
     {
-      "@id": "https://modellen.netbeheernederland.nl/dp-object/1.0"
+      "@id": "https://modellen.netbeheernederland.nl/object-register/1.1"
     }
   ],
   "@graph": [
@@ -39,7 +39,7 @@
         "@id": "urn:uuid:3061d9bc-a20e-4b72-85b7-042c731f86be"
       },
       "cim:IdentifiedObject.mRID": "158a245d-79f4-4380-bf77-5f128dc3dee8",
-      "cim:IdentifiedObject.name": "Enexis"
+      "cim:IdentifiedObject.name": "Enexis Netbeheer B.V."
     },
     {
       "@id": "urn:uuid:4f74c8e2-adb5-4815-9607-eb00fb6a0d55",
@@ -48,7 +48,7 @@
         "@id": "urn:uuid:3061d9bc-a20e-4b72-85b7-042c731f86be"
       },
       "cim:IdentifiedObject.mRID": "4f74c8e2-adb5-4815-9607-eb00fb6a0d55",
-      "cim:IdentifiedObject.name": "Liander"
+      "cim:IdentifiedObject.name": "Liander N.V."
     },
     {
       "@id": "urn:uuid:0d00cb60-dd49-4d00-a720-19a0025807f0",
@@ -57,7 +57,7 @@
         "@id": "urn:uuid:3061d9bc-a20e-4b72-85b7-042c731f86be"
       },
       "cim:IdentifiedObject.mRID": "0d00cb60-dd49-4d00-a720-19a0025807f0",
-      "cim:IdentifiedObject.name": "Stedin"
+      "cim:IdentifiedObject.name": "Stedin Netbeheer B.V."
     },
     {
       "@id": "urn:uuid:2128cb2f-9425-4cf7-9462-9fd59e06542d",
@@ -66,7 +66,7 @@
         "@id": "urn:uuid:3061d9bc-a20e-4b72-85b7-042c731f86be"
       },
       "cim:IdentifiedObject.mRID": "2128cb2f-9425-4cf7-9462-9fd59e06542d",
-      "cim:IdentifiedObject.name": "TenneT"
+      "cim:IdentifiedObject.name": "TenneT TSO B.V."
     },
     {
       "@id": "urn:uuid:b7482b2f-bcb8-46e9-99b1-e0cd09f3c205",

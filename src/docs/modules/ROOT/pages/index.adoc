@@ -3,9 +3,9 @@
 Maintainer::
     mailto:teamsemantiek@netbeheernederland.nl[Team Semantiek] (Netbeheer Nederland)
 Version::
-    1.0.0
+    1.1
 Release date::
-    2026-02-20
+    2026-03-18
 
 The _NBNL Object Register_ is a predefined, controlled set of permissible
 values used to ensure consistency and interoperability in data exchange,
@@ -35,22 +35,22 @@ a|https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:en[Definition]
 |mRID |Name |Type |Issuer
 
  |158a245d-79f4-4380-bf77-5f128dc3dee8
- |Enexis
+ |Enexis Netbeheer B.V.
 a|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/netbeheerder[Definition]
 a|Netbeheer Nederland
 
  |4f74c8e2-adb5-4815-9607-eb00fb6a0d55
- |Liander
+ |Liander N.V.
 a|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/netbeheerder[Definition]
 a|Netbeheer Nederland
 
  |0d00cb60-dd49-4d00-a720-19a0025807f0
- |Stedin
+ |Stedin Netbeheer B.V.
 a|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/netbeheerder[Definition]
 a|Netbeheer Nederland
 
  |2128cb2f-9425-4cf7-9462-9fd59e06542d
- |TenneT
+ |TenneT TSO B.V.
 a|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/netbeheerder[Definition]
 a|Netbeheer Nederland
 |===
