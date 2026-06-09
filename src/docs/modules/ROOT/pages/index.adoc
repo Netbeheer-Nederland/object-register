@@ -98,7 +98,7 @@ a|Netbeheer Nederland
 
 |d5445f84-09ac-4647-b6b2-ed81cc5ab76b
 |AC-25
-|Base voltage defined by ENTSO-E 25 kV"
+|Base voltage defined by ENTSO-E 25 kV
 |https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/tussenspanning[Definition]
 |Netbeheer Nederland
 

@@ -22,7 +22,7 @@
   },
   "dcterms:conformsTo": [
     {
-      "@id": "https://modellen.netbeheernederland.nl/object-register/1.1"
+      "@id": "https://modellen.netbeheernederland.nl/object-register/1.2"
     }
   ],
   "@graph": [
@@ -88,7 +88,7 @@
       "cim:IdentifiedObject.mRID": "b6140325-2576-4bd6-8da4-1238c2328bf2",
       "cim:IdentifiedObject.name": "AC-3"
     },
-   {
+    {
       "@id": "urn:uuid:8b7d8dbc-53ad-445a-b557-32633ecf1aa9",
       "@type": "cim:BaseVoltage",
       "cim:BaseVoltage.nominalVoltage": {
@@ -108,7 +108,7 @@
       "cim:IdentifiedObject.mRID": "45b9413e-a116-4952-8cf8-aeb4b2e53348",
       "cim:IdentifiedObject.name": "AC-10"
     },
-   {
+    {
       "@id": "urn:uuid:85712eb4-804b-49f8-9fab-d94ee29152ef",
       "@type": "cim:BaseVoltage",
       "cim:BaseVoltage.nominalVoltage": {
@@ -118,47 +118,47 @@
       "cim:IdentifiedObject.mRID": "85712eb4-804b-49f8-9fab-d94ee29152ef",
       "cim:IdentifiedObject.name": "AC-13"
     },
-     {
-       "@id": "urn:uuid:bbfd2dd8-005d-4c26-ab0d-285117d0309c",
-       "@type": "cim:BaseVoltage",
-       "cim:BaseVoltage.nominalVoltage": {
-         "@id": "urn:uuid:2dc424e7-5c23-4621-9617-96ef91942ce6"
-       },
-       "cim:IdentifiedObject.description": "Base voltage 23 kV",
-       "cim:IdentifiedObject.mRID": "bbfd2dd8-005d-4c26-ab0d-285117d0309c",
-       "cim:IdentifiedObject.name": "AC-23"
+    {
+      "@id": "urn:uuid:bbfd2dd8-005d-4c26-ab0d-285117d0309c",
+      "@type": "cim:BaseVoltage",
+      "cim:BaseVoltage.nominalVoltage": {
+        "@id": "urn:uuid:2dc424e7-5c23-4621-9617-96ef91942ce6"
       },
-      {
-       "@id": "urn:uuid:d5445f84-09ac-4647-b6b2-ed81cc5ab76b",
-       "@type": "cim:BaseVoltage",
-       "cim:BaseVoltage.nominalVoltage": {
-         "@id": "urn:uuid:5f6b3d42-e5c9-4407-a089-31289aed6697"
-       },
-       "cim:IdentifiedObject.description": "Base voltage defined by ENTSO-E 25 kV",
-       "cim:IdentifiedObject.mRID": "d5445f84-09ac-4647-b6b2-ed81cc5ab76b",
-       "cim:IdentifiedObject.name": "AC-25"
+      "cim:IdentifiedObject.description": "Base voltage 23 kV",
+      "cim:IdentifiedObject.mRID": "bbfd2dd8-005d-4c26-ab0d-285117d0309c",
+      "cim:IdentifiedObject.name": "AC-23"
+    },
+    {
+      "@id": "urn:uuid:d5445f84-09ac-4647-b6b2-ed81cc5ab76b",
+      "@type": "cim:BaseVoltage",
+      "cim:BaseVoltage.nominalVoltage": {
+        "@id": "urn:uuid:5f6b3d42-e5c9-4407-a089-31289aed6697"
       },
-     {
-       "@id": "urn:uuid:9289ba01-8394-4a4e-9346-ee82706babd1",
-       "@type": "cim:BaseVoltage",
-       "cim:BaseVoltage.nominalVoltage": {
-         "@id": "urn:uuid:a319e3c0-fa7d-4a96-9aa0-5edca04d2888"
-       },
-       "cim:IdentifiedObject.description": "Base voltage 50 kV",
-       "cim:IdentifiedObject.mRID": "9289ba01-8394-4a4e-9346-ee82706babd1",
-       "cim:IdentifiedObject.name": "AC-50"
+      "cim:IdentifiedObject.description": "Base voltage defined by ENTSO-E 25 kV",
+      "cim:IdentifiedObject.mRID": "d5445f84-09ac-4647-b6b2-ed81cc5ab76b",
+      "cim:IdentifiedObject.name": "AC-25"
+    },
+    {
+      "@id": "urn:uuid:9289ba01-8394-4a4e-9346-ee82706babd1",
+      "@type": "cim:BaseVoltage",
+      "cim:BaseVoltage.nominalVoltage": {
+        "@id": "urn:uuid:a319e3c0-fa7d-4a96-9aa0-5edca04d2888"
       },
-      {
-       "@id": "urn:uuid:1d57ef25-73e5-c940-de64-61253ce02e87",
-       "@type": "cim:BaseVoltage",
-       "cim:BaseVoltage.nominalVoltage": {
-         "@id": "urn:uuid:e9732c53-2871-428a-9c29-3e024bd679a2"
-       },
-       "cim:IdentifiedObject.description": "Base voltage defined by ENTSO-E 66 kV",
-       "cim:IdentifiedObject.mRID": "1d57ef25-73e5-c940-de64-61253ce02e87",
-       "cim:IdentifiedObject.name": "AC-66"
+      "cim:IdentifiedObject.description": "Base voltage 50 kV",
+      "cim:IdentifiedObject.mRID": "9289ba01-8394-4a4e-9346-ee82706babd1",
+      "cim:IdentifiedObject.name": "AC-50"
+    },
+    {
+      "@id": "urn:uuid:1d57ef25-73e5-c940-de64-61253ce02e87",
+      "@type": "cim:BaseVoltage",
+      "cim:BaseVoltage.nominalVoltage": {
+        "@id": "urn:uuid:e9732c53-2871-428a-9c29-3e024bd679a2"
       },
-      {
+      "cim:IdentifiedObject.description": "Base voltage defined by ENTSO-E 66 kV",
+      "cim:IdentifiedObject.mRID": "1d57ef25-73e5-c940-de64-61253ce02e87",
+      "cim:IdentifiedObject.name": "AC-66"
+    },
+    {
       "@id": "urn:uuid:b8e17237e0ca4fca9e4e285b80ab30d0",
       "@type": "cim:BaseVoltage",
       "cim:BaseVoltage.nominalVoltage": {
