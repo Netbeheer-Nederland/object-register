@@ -5,7 +5,11 @@ Maintainer::
 Version::
     1.2
 Release date::
+<<<<<<< Updated upstream
     2026-06-08
+=======
+    2026-07-06
+>>>>>>> Stashed changes
 
 The _NBNL Object Register_ is a predefined, controlled set of permissible
 values used to ensure consistency and interoperability in data exchange,
@@ -125,8 +129,25 @@ a|Netbeheer Nederland
 |Base voltage defined by ENTSO-E 150 kV
 |https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/hoogspanning[Definition]
 |Netbeheer Nederland
+
+<<<<<<< Updated upstream
+=======
+|7891a026ba2c42098556665efd13ba94
+|AC-220
+|Base voltage defined by ENTSO-E 220 kV
+|https://begrippen.netbeheernederland.nl/doc/esdhd[Definition]
+|Netbeheer Nederland
+
+|b88e6bde11264fea83355102cd4f182c
+|AC-380
+|Base voltage defined by ENTSO-E 380 kV
+|https://begrippen.netbeheernederland.nl/doc/esdhd[Definition]
+|Netbeheer Nederland
 |===
 
+
+
+>>>>>>> Stashed changes
 == Additional artifacts
 
 * xref::attachment$dp_object.example.1_1.jsonld[NBNL Object Register JSON-LD source V1.1]
