@@ -3,13 +3,9 @@
 Maintainer::
     mailto:teamsemantiek@netbeheernederland.nl[Team Semantiek] (Netbeheer Nederland)
 Version::
-    1.2
+    1.3
 Release date::
-<<<<<<< Updated upstream
-    2026-06-08
-=======
     2026-07-06
->>>>>>> Stashed changes
 
 The _NBNL Object Register_ is a predefined, controlled set of permissible
 values used to ensure consistency and interoperability in data exchange,
@@ -21,42 +17,39 @@ This list is maintained by _Team Semantiek_ and is considered authoritative
 within the scope of the object register.
 
 == cim:GeographicalRegion
-
-[cols="6,1,3,3",width=100%]
+[cols="6,3,2,3",width=100%]
 |===
 |mRID |Name |Type |Issuer
-
- |3061d9bc-a20e-4b72-85b7-042c731f86be
- |NL
-a|https://www.iso.org/obp/ui/#iso:pub:PUB500001:en[Definition]
-a|https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:en[Definition]
+|3061d9bc-a20e-4b72-85b7-042c731f86be
+|NL
+|https://www.iso.org/obp/ui/#iso:pub:PUB500001:en[Definition]
+|https://www.iso.org/obp/ui/#iso:std:iso:3166:-1:en[Definition]
 |===
 
 == cim:SubGeographicalRegion
-
-[cols="6,1,3,3",width=100%]
+[cols="6,3,2,3",width=100%]
 |===
 |mRID |Name |Type |Issuer
 
- |158a245d-79f4-4380-bf77-5f128dc3dee8
- |Enexis Netbeheer B.V.
-a|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/netbeheerder[Definition]
-a|Netbeheer Nederland
+|158a245d-79f4-4380-bf77-5f128dc3dee8
+|Enexis Netbeheer B.V.
+|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/distributie[Definition]
+|Netbeheer Nederland
 
- |4f74c8e2-adb5-4815-9607-eb00fb6a0d55
- |Liander N.V.
-a|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/netbeheerder[Definition]
-a|Netbeheer Nederland
+|4f74c8e2-adb5-4815-9607-eb00fb6a0d55
+|Liander N.V.
+|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/distributie[Definition]
+|Netbeheer Nederland
 
- |0d00cb60-dd49-4d00-a720-19a0025807f0
- |Stedin Netbeheer B.V.
-a|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/netbeheerder[Definition]
-a|Netbeheer Nederland
+|0d00cb60-dd49-4d00-a720-19a0025807f0
+|Stedin Netbeheer B.V.
+|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/distributie[Definition]
+|Netbeheer Nederland
 
- |2128cb2f-9425-4cf7-9462-9fd59e06542d
- |TenneT TSO B.V.
-a|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/netbeheerder[Definition]
-a|Netbeheer Nederland
+|2128cb2f-9425-4cf7-9462-9fd59e06542d
+|TenneT TSO B.V.
+|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/transmissie[Definition]
+|Netbeheer Nederland
 |===
 
 == cim:BaseVoltage
@@ -130,8 +123,6 @@ a|Netbeheer Nederland
 |https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/hoogspanning[Definition]
 |Netbeheer Nederland
 
-<<<<<<< Updated upstream
-=======
 |7891a026ba2c42098556665efd13ba94
 |AC-220
 |Base voltage defined by ENTSO-E 220 kV
@@ -145,10 +136,9 @@ a|Netbeheer Nederland
 |Netbeheer Nederland
 |===
 
-
-
->>>>>>> Stashed changes
 == Additional artifacts
 
 * xref::attachment$dp_object.example.1_1.jsonld[NBNL Object Register JSON-LD source V1.1]
 * xref::attachment$dp_object.example.1_2.jsonld[NBNL Object Register JSON-LD source V1.2]
+* xref::attachment$dp_object.example.1_3.jsonld[NBNL Object Register JSON-LD source V1.3]
+
