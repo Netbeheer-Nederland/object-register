@@ -11,9 +11,9 @@
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
-  "@id": "urn:uuid:fd57b479-d68b-4502-bf3c-5a35b4a78a11",
+  "@id": "urn:uuid:ca693e93-9ad0-47c8-b37e-39ed43f96f18",
   "dcterms:issued": {
-    "@value": "2026-07-06T00:00:00Z",
+    "@value": "2026-07-07T00:00:00Z",
     "@type": "xsd:dateTime"
   },
   "dcterms:publisher": {
@@ -22,7 +22,7 @@
   },
   "dcterms:conformsTo": [
     {
-      "@id": "https://modellen.netbeheernederland.nl/object-register/1.3"
+      "@id": "https://modellen.netbeheernederland.nl/object-register/1.4"
     }
   ],
   "@graph": [
@@ -117,6 +117,16 @@
       "cim:IdentifiedObject.description": "Base voltage defined by ENTSO-E 13 kV",
       "cim:IdentifiedObject.mRID": "85712eb4-804b-49f8-9fab-d94ee29152ef",
       "cim:IdentifiedObject.name": "AC-13"
+    },
+    {
+      "@id": "urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5",
+      "@type": "cim:BaseVoltage",
+      "cim:BaseVoltage.nominalVoltage": {
+        "@id": "urn:uuid:520cf3c3-58ef-428a-9e44-215d62a6c431"
+      },
+      "cim:IdentifiedObject.description": "Base voltage defined by ENTSO-E 20 kV",
+      "cim:IdentifiedObject.mRID": "4ace87c9-16c7-4097-914f-d4551d7d8cd5",
+      "cim:IdentifiedObject.name": "AC-20"
     },
     {
       "@id": "urn:uuid:bbfd2dd8-005d-4c26-ab0d-285117d0309c",
@@ -265,6 +275,20 @@
       },
       "cim:Voltage.value": {
         "@value": 13.0,
+        "@type": "xsd:float"
+      }
+    },
+    {
+      "@id": "urn:uuid:520cf3c3-58ef-428a-9e44-215d62a6c431",
+      "@type": "cim:Voltage",
+      "cim:Voltage.multiplier": {
+        "@id": "cim:UnitMultiplier.k"
+      },
+      "cim:Voltage.unit": {
+        "@id": "cim:UnitSymbol.V"
+      },
+      "cim:Voltage.value": {
+        "@value": 20.0,
         "@type": "xsd:float"
       }
     },

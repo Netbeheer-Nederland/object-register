@@ -87,6 +87,12 @@ within the scope of the object register.
 |https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/middenspanning[Definition]
 |Netbeheer Nederland
 
+|4ace87c9-16c7-4097-914f-d4551d7d8cd5
+|AC-20
+|Base voltage defined by ENTSO-E 20 kV
+|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/middenspanning[Definition]
+|Netbeheer Nederland
+
 |bbfd2dd8-005d-4c26-ab0d-285117d0309c
 |AC-23
 |Base voltage 23 kV
@@ -137,8 +143,13 @@ within the scope of the object register.
 |===
 
 == Additional artifacts
+* xref::attachment$dp_object.example.latest.jsonld[NBNL Object Register JSON-LD source latest]
+* xref::attachment$dp_object.example.1_4.jsonld[NBNL Object Register JSON-LD source V1.4]
 
-* xref::attachment$dp_object.example.1_1.jsonld[NBNL Object Register JSON-LD source V1.1]
-* xref::attachment$dp_object.example.1_2.jsonld[NBNL Object Register JSON-LD source V1.2]
+== Archive
 * xref::attachment$dp_object.example.1_3.jsonld[NBNL Object Register JSON-LD source V1.3]
+* xref::attachment$dp_object.example.1_2.jsonld[NBNL Object Register JSON-LD source V1.2]
+* xref::attachment$dp_object.example.1_1.jsonld[NBNL Object Register JSON-LD source V1.1]
+
+
 
