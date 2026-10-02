@@ -79,13 +79,13 @@ within the scope of the object register.
 
 |b7482b2f-bcb8-46e9-99b1-e0cd09f3c205
 |AC-0-4
-|Base voltage defined by ENTSO-E 0.4 kV"
+|Base voltage defined by ENTSO-E 0.4 kV
 |https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/laagspanning[Definition]
 |Netbeheer Nederland
 
 |a8d1b6b0-2ca4-4cbe-baa8-deaef08488fc
 |AC-0-7
-|Base voltage 0.7 kV"
+|Base voltage 0.7 kV
 |https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/laagspanning[Definition]
 |Netbeheer Nederland
 
