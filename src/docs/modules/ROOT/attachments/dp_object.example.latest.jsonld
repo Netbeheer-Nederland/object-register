@@ -34,6 +34,15 @@
       "cim:IdentifiedObject.name": "NL"
     },
     {
+      "@id": "urn:uuid:9720c3bf-c710-48e8-958e-7bcc249a7304",
+      "@type": "cim:SubGeographicalRegion",
+      "cim:SubGeographicalRegion.Region": {
+        "@id": "urn:uuid:3061d9bc-a20e-4b72-85b7-042c731f86be"
+      },
+      "cim:IdentifiedObject.mRID": "9720c3bf-c710-48e8-958e-7bcc249a7304",
+      "cim:IdentifiedObject.name": "Coteq Netbeheer B.V."
+    },
+    {
       "@id": "urn:uuid:158a245d-79f4-4380-bf77-5f128dc3dee8",
       "@type": "cim:SubGeographicalRegion",
       "cim:SubGeographicalRegion.Region": {
@@ -43,6 +52,15 @@
       "cim:IdentifiedObject.name": "Enexis Netbeheer B.V."
     },
     {
+      "@id": "urn:uuid:43da9130-5c92-4cc0-bcdb-231295386b4f",
+      "@type": "cim:SubGeographicalRegion",
+      "cim:SubGeographicalRegion.Region": {
+        "@id": "urn:uuid:3061d9bc-a20e-4b72-85b7-042c731f86be"
+      },
+      "cim:IdentifiedObject.mRID": "43da9130-5c92-4cc0-bcdb-231295386b4f",
+      "cim:IdentifiedObject.name": "Gasunie Transport Services B.V."
+    },
+    {
       "@id": "urn:uuid:4f74c8e2-adb5-4815-9607-eb00fb6a0d55",
       "@type": "cim:SubGeographicalRegion",
       "cim:SubGeographicalRegion.Region": {
@@ -50,6 +68,15 @@
       },
       "cim:IdentifiedObject.mRID": "4f74c8e2-adb5-4815-9607-eb00fb6a0d55",
       "cim:IdentifiedObject.name": "Liander N.V."
+    },
+    {
+      "@id": "urn:uuid:c2f1ba6c-2429-4fc1-9d19-50bf9c1be528",
+      "@type": "cim:SubGeographicalRegion",
+      "cim:SubGeographicalRegion.Region": {
+        "@id": "urn:uuid:3061d9bc-a20e-4b72-85b7-042c731f86be"
+      },
+      "cim:IdentifiedObject.mRID": "c2f1ba6c-2429-4fc1-9d19-50bf9c1be528",
+      "cim:IdentifiedObject.name": "N.V. RENDO"
     },
     {
       "@id": "urn:uuid:0d00cb60-dd49-4d00-a720-19a0025807f0",
@@ -70,6 +97,15 @@
       "cim:IdentifiedObject.name": "TenneT TSO B.V."
     },
     {
+      "@id": "urn:uuid:21ba2c21-33a7-487d-9618-789334963e62",
+      "@type": "cim:SubGeographicalRegion",
+      "cim:SubGeographicalRegion.Region": {
+        "@id": "urn:uuid:3061d9bc-a20e-4b72-85b7-042c731f86be"
+      },
+      "cim:IdentifiedObject.mRID": "21ba2c21-33a7-487d-9618-789334963e62",
+      "cim:IdentifiedObject.name": "Westland Infra Netbeheer B.V."
+    },
+    {
       "@id": "urn:uuid:b7482b2f-bcb8-46e9-99b1-e0cd09f3c205",
       "@type": "cim:BaseVoltage",
       "cim:BaseVoltage.nominalVoltage": {
@@ -78,6 +114,16 @@
       "cim:IdentifiedObject.description": "Base voltage defined by ENTSO-E 0.4 kV",
       "cim:IdentifiedObject.mRID": "b7482b2f-bcb8-46e9-99b1-e0cd09f3c205",
       "cim:IdentifiedObject.name": "AC-0-4"
+    },
+    {
+      "@id": "urn:uuid:a8d1b6b0-2ca4-4cbe-baa8-deaef08488fc",
+      "@type": "cim:BaseVoltage",
+      "cim:BaseVoltage.nominalVoltage": {
+        "@id": "urn:uuid:2226bb23-bc5d-40db-ba49-aaddfd907b0e"
+      },
+      "cim:IdentifiedObject.description": "Base voltage 0.7 kV",
+      "cim:IdentifiedObject.mRID": "a8d1b6b0-2ca4-4cbe-baa8-deaef08488fc",
+      "cim:IdentifiedObject.name": "AC-0-7"
     },
     {
       "@id": "urn:uuid:b6140325-2576-4bd6-8da4-1238c2328bf2",
@@ -170,6 +216,16 @@
       "cim:IdentifiedObject.name": "AC-30"
     },
     {
+      "@id": "urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc",
+      "@type": "cim:BaseVoltage",
+      "cim:BaseVoltage.nominalVoltage": {
+        "@id": "urn:uuid:9befc993-783d-4a1d-ab5e-a83d41985d48"
+      },
+      "cim:IdentifiedObject.description": "Base voltage defined by ENTSO-E 33 kV",
+      "cim:IdentifiedObject.mRID": "c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc",
+      "cim:IdentifiedObject.name": "AC-33"
+    },
+    {
       "@id": "urn:uuid:9289ba01-8394-4a4e-9346-ee82706babd1",
       "@type": "cim:BaseVoltage",
       "cim:BaseVoltage.nominalVoltage": {
@@ -240,6 +296,20 @@
       },
       "cim:Voltage.value": {
         "@value": 0.4,
+        "@type": "xsd:float"
+      }
+    },
+    {
+      "@id": "urn:uuid:2226bb23-bc5d-40db-ba49-aaddfd907b0e",
+      "@type": "cim:Voltage",
+      "cim:Voltage.multiplier": {
+        "@id": "cim:UnitMultiplier.k"
+      },
+      "cim:Voltage.unit": {
+        "@id": "cim:UnitSymbol.V"
+      },
+      "cim:Voltage.value": {
+        "@value": 0.7,
         "@type": "xsd:float"
       }
     },
@@ -366,6 +436,20 @@
       },
       "cim:Voltage.value": {
         "@value": 30.0,
+        "@type": "xsd:float"
+      }
+    },
+    {
+      "@id": "urn:uuid:9befc993-783d-4a1d-ab5e-a83d41985d48",
+      "@type": "cim:Voltage",
+      "cim:Voltage.multiplier": {
+        "@id": "cim:UnitMultiplier.k"
+      },
+      "cim:Voltage.unit": {
+        "@id": "cim:UnitSymbol.V"
+      },
+      "cim:Voltage.value": {
+        "@value": 33.0,
         "@type": "xsd:float"
       }
     },

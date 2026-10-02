@@ -31,13 +31,28 @@ within the scope of the object register.
 |===
 |mRID |Name |Type |Issuer
 
+|9720c3bf-c710-48e8-958e-7bcc249a7304
+|Coteq Netbeheer B.V.
+|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/distributie[Definition]
+|Netbeheer Nederland
+
 |158a245d-79f4-4380-bf77-5f128dc3dee8
 |Enexis Netbeheer B.V.
 |https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/distributie[Definition]
 |Netbeheer Nederland
 
+|43da9130-5c92-4cc0-bcdb-231295386b4f
+|Gasunie Transport Services B.V.
+|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/distributie[Definition]
+|Netbeheer Nederland
+
 |4f74c8e2-adb5-4815-9607-eb00fb6a0d55
 |Liander N.V.
+|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/distributie[Definition]
+|Netbeheer Nederland
+
+|c2f1ba6c-2429-4fc1-9d19-50bf9c1be528
+|N.V. RENDO
 |https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/distributie[Definition]
 |Netbeheer Nederland
 
@@ -50,6 +65,11 @@ within the scope of the object register.
 |TenneT TSO B.V.
 |https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/transmissie[Definition]
 |Netbeheer Nederland
+
+|21ba2c21-33a7-487d-9618-789334963e62
+|Westland Infra Netbeheer B.V.
+|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/distributie[Definition]
+|Netbeheer Nederland
 |===
 
 == cim:BaseVoltage
@@ -60,6 +80,12 @@ within the scope of the object register.
 |b7482b2f-bcb8-46e9-99b1-e0cd09f3c205
 |AC-0-4
 |Base voltage defined by ENTSO-E 0.4 kV"
+|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/laagspanning[Definition]
+|Netbeheer Nederland
+
+|a8d1b6b0-2ca4-4cbe-baa8-deaef08488fc
+|AC-0-7
+|Base voltage 0.7 kV"
 |https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/laagspanning[Definition]
 |Netbeheer Nederland
 
@@ -117,6 +143,12 @@ within the scope of the object register.
 |https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/tussenspanning[Definition]
 |Netbeheer Nederland
 
+|c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc
+|AC-33
+|Base voltage defined by ENTSO-E 33 kV
+|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/tussenspanning[Definition]
+|Netbeheer Nederland
+
 |9289ba01-8394-4a4e-9346-ee82706babd1
 |AC-50
 |Base voltage 50 kV
@@ -156,9 +188,10 @@ within the scope of the object register.
 
 == Additional artifacts
 * xref::attachment$dp_object.example.latest.jsonld[NBNL Object Register JSON-LD source latest]
-* xref::attachment$dp_object.example.1_5.jsonld[NBNL Object Register JSON-LD source V1.5]
+* xref::attachment$dp_object.example.1_6.jsonld[NBNL Object Register JSON-LD source V1.6]
 
 == Archive
+* xref::attachment$dp_object.example.1_5.jsonld[NBNL Object Register JSON-LD source V1.5]
 * xref::attachment$dp_object.example.1_4.jsonld[NBNL Object Register JSON-LD source V1.4]
 * xref::attachment$dp_object.example.1_3.jsonld[NBNL Object Register JSON-LD source V1.3]
 * xref::attachment$dp_object.example.1_2.jsonld[NBNL Object Register JSON-LD source V1.2]
