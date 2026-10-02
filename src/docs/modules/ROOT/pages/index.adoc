@@ -43,7 +43,7 @@ within the scope of the object register.
 
 |43da9130-5c92-4cc0-bcdb-231295386b4f
 |Gasunie Transport Services B.V.
-|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/distributie[Definition]
+|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/transmissie[Definition]
 |Netbeheer Nederland
 
 |4f74c8e2-adb5-4815-9607-eb00fb6a0d55
