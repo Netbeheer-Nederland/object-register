@@ -11,10 +11,10 @@
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
-  "@id": "urn:uuid:8b0c6441-bf93-4873-9c75-f44c6c2faef8",
+  "@id": "urn:uuid:98210ff0-211e-45ec-ad60-d44b5e18196f",
   "dcterms:title": "NBNL Object Register",
   "dcterms:issued": {
-    "@value": "2026-09-10T00:00:00Z",
+    "@value": "2026-10-02T00:00:00Z",
     "@type": "xsd:dateTime"
   },
   "dcterms:publisher": {
@@ -23,7 +23,7 @@
   },
   "dcterms:conformsTo": [
     {
-      "@id": "https://modellen.netbeheernederland.nl/object-register/1.5"
+      "@id": "https://modellen.netbeheernederland.nl/object-register/1.6"
     }
   ],
   "@graph": [
