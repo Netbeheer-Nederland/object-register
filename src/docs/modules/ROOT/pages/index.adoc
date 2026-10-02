@@ -3,9 +3,9 @@
 Maintainer::
     mailto:teamsemantiek@netbeheernederland.nl[Team Semantiek] (Netbeheer Nederland)
 Version::
-    1.5
+    1.6
 Release date::
-    2026-09-10
+    2026-10-02
 
 The _NBNL Object Register_ is a predefined, controlled set of permissible
 values used to ensure consistency and interoperability in data exchange,
@@ -196,6 +196,3 @@ within the scope of the object register.
 * xref::attachment$dp_object.example.1_3.jsonld[NBNL Object Register JSON-LD source V1.3]
 * xref::attachment$dp_object.example.1_2.jsonld[NBNL Object Register JSON-LD source V1.2]
 * xref::attachment$dp_object.example.1_1.jsonld[NBNL Object Register JSON-LD source V1.1]
-
-
-
